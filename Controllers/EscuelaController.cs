@@ -11,6 +11,10 @@ public class EscuelaController: Controller
         escuela.AñoDeCreación = 2005;
         escuela.UniqueId = Guid.NewGuid().ToString();
         escuela.Nombre = "Platzi School";
+        escuela.Ciudad = "Bogota";
+        escuela.Pais = "Colombia";
+        escuela.Dirección = "Avenida Siempre Viva";
+        escuela.TipoEscuela = TiposEscuela.Secundaria;
 
         ViewBag.CosaDinamica = "Algo dinamico :P";
 
