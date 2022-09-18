@@ -12,6 +12,8 @@ public class EscuelaController: Controller
         escuela.EscuelaId = Guid.NewGuid().ToString();
         escuela.Nombre = "Platzi School";
 
+        ViewBag.CosaDinamica = "Algo dinamico :P";
+
         return View(escuela);
     }
 }
